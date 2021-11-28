@@ -14,8 +14,14 @@
 }
 
 .articles {
+  position: relative;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding-top: 16px;
+}
+
+.message {
+  position: absolute;
+  color: #91A0B6
 }

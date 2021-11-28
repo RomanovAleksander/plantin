@@ -1,17 +1,20 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, {useEffect, useState} from 'react';
 import data from '../../data/data.json';
 import Search from './Search/Search';
 import NewArticle from './NewArticle/NewArticle';
 import TopArticles from './TopArticles/TopArticles';
 import InterestingArticles from './InterestingArticles/InterestingArticles';
+import { getNextPageItems } from '../../utils/articles';
 import arrow from '../../assets/main/chevron_left.svg';
 import styles from './Main.module.scss';
 
-const interestingArticles = data.interesting;
+const mockedArticles = data.interesting;
+const articlesPerPage = 3;
 
 const Main = () => {
   const [searchValue, setSearchValue] = useState('');
   const [articles, setArticles] = useState([]);
+  const currentPage = articles.length / articlesPerPage;
 
   const onSearchChange = (event) => {
     const value = event.target.value;
@@ -26,17 +29,19 @@ const Main = () => {
     });
   }
 
-  const getArticles = () => {
+  const fetchArticles = () => {
+    const nextArticles = getNextPageItems(mockedArticles, currentPage, articlesPerPage);
     setTimeout(() => {
-      setArticles((prev) => [...prev, ...interestingArticles]);
-    }, 1500);
-  };
+      setArticles((prev) => [...prev, ...nextArticles]);
+    }, 600);
+  }
 
   useEffect(() => {
-    getArticles()
+    fetchArticles();
   }, [])
 
   const filteredArticles = filterArticles(articles, searchValue);
+  const hasMore = articles.length < mockedArticles.length;
   return (
     <main className={styles.wrapper}>
       <aside className={styles.navLinks}>
@@ -47,7 +52,10 @@ const Main = () => {
       </aside>
       <Search searchValue={searchValue} handleChange={onSearchChange} />
       {!searchValue && <> <NewArticle /> <TopArticles /> </> }
-      <InterestingArticles articles={filteredArticles} />
+      <InterestingArticles articles={filteredArticles}
+                           fetchArticles={fetchArticles}
+                           hasMore={hasMore}
+      />
     </main>
   );
 };

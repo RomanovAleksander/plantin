@@ -4,11 +4,12 @@
   "private": true,
   "homepage": "https://romanovaleksander.github.io/plantin/",
   "dependencies": {
+    "node-sass": "^4.14.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-infinite-scroll-component": "^6.1.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2",
-    "node-sass": "^4.14.1"
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
