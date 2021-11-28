@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/plantin/static/css/main.fed4fc26.chunk.css",
-    "main.js": "/plantin/static/js/main.4e67b882.chunk.js",
-    "main.js.map": "/plantin/static/js/main.4e67b882.chunk.js.map",
+    "main.css": "/plantin/static/css/main.3c31cfc8.chunk.css",
+    "main.js": "/plantin/static/js/main.85af9bea.chunk.js",
+    "main.js.map": "/plantin/static/js/main.85af9bea.chunk.js.map",
     "runtime-main.js": "/plantin/static/js/runtime-main.531f0036.js",
     "runtime-main.js.map": "/plantin/static/js/runtime-main.531f0036.js.map",
-    "static/js/2.dfea0ef4.chunk.js": "/plantin/static/js/2.dfea0ef4.chunk.js",
-    "static/js/2.dfea0ef4.chunk.js.map": "/plantin/static/js/2.dfea0ef4.chunk.js.map",
+    "static/js/2.61f82b24.chunk.js": "/plantin/static/js/2.61f82b24.chunk.js",
+    "static/js/2.61f82b24.chunk.js.map": "/plantin/static/js/2.61f82b24.chunk.js.map",
     "index.html": "/plantin/index.html",
-    "static/css/main.fed4fc26.chunk.css.map": "/plantin/static/css/main.fed4fc26.chunk.css.map",
-    "static/js/2.dfea0ef4.chunk.js.LICENSE.txt": "/plantin/static/js/2.dfea0ef4.chunk.js.LICENSE.txt",
+    "static/css/main.3c31cfc8.chunk.css.map": "/plantin/static/css/main.3c31cfc8.chunk.css.map",
+    "static/js/2.61f82b24.chunk.js.LICENSE.txt": "/plantin/static/js/2.61f82b24.chunk.js.LICENSE.txt",
     "static/media/avatar.1ede28b5.svg": "/plantin/static/media/avatar.1ede28b5.svg",
     "static/media/chevron_left.06dc5757.svg": "/plantin/static/media/chevron_left.06dc5757.svg",
     "static/media/divineLine.ed704139.svg": "/plantin/static/media/divineLine.ed704139.svg",
@@ -20,6 +20,7 @@
     "static/media/new_article_image.2fc074f4.png": "/plantin/static/media/new_article_image.2fc074f4.png",
     "static/media/promo.2668d4c0.svg": "/plantin/static/media/promo.2668d4c0.svg",
     "static/media/NewArticle.module.scss": "/plantin/static/media/rectangle.51ad685a.svg",
+    "static/media/s_image.66ec9749.svg": "/plantin/static/media/s_image.66ec9749.svg",
     "static/media/Search.module.scss": "/plantin/static/media/search.4e980fff.svg",
     "static/media/search_input_small.ebbe1d1f.svg": "/plantin/static/media/search_input_small.ebbe1d1f.svg",
     "static/media/top_article_image_1.9c921ebe.png": "/plantin/static/media/top_article_image_1.9c921ebe.png",
@@ -27,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.531f0036.js",
-    "static/js/2.dfea0ef4.chunk.js",
-    "static/css/main.fed4fc26.chunk.css",
-    "static/js/main.4e67b882.chunk.js"
+    "static/js/2.61f82b24.chunk.js",
+    "static/css/main.3c31cfc8.chunk.css",
+    "static/js/main.85af9bea.chunk.js"
   ]
 }
