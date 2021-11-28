@@ -1,6 +1,7 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { useHttp } from '../../../hooks/http.hook';
 import { apiUrl, apiKey } from '../../../utils/consts';
+import backgroundImg from '../../../assets/main/s_image.svg';
 import styles from './Search.module.scss';
 
 const Search = ({ searchValue, handleChange }) => {
@@ -48,6 +49,7 @@ const Search = ({ searchValue, handleChange }) => {
           placeholder="Search"
         />
       </div>
+      <img src={backgroundImg} alt="background" className={styles.backgroundImg} />
     </div>
   );
 };
