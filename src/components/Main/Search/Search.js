@@ -5,6 +5,7 @@ import styles from './Search.module.scss';
 
 const Search = ({ searchValue, handleChange }) => {
   const [temperature, setTemperature] = useState(null);
+  const [isCoords, setIsCoords] = useState(false);
   const [latitude, setLatitude] = useState(false);
   const [longitude, setLongitude] = useState(false);
   const { request, loading } = useHttp();
@@ -23,14 +24,17 @@ const Search = ({ searchValue, handleChange }) => {
     navigator.geolocation.getCurrentPosition(function (position) {
       setLatitude(position.coords.latitude);
       setLongitude(position.coords.longitude);
+      setIsCoords(true);
     })
   }, []);
 
   useEffect(() => {
     if (latitude && longitude) {
       getTemperature(`lat=${latitude}&lon=${longitude}`);
+    } else {
+      getTemperature('q=kyiv');
     }
-  }, [latitude, longitude]);
+  }, [isCoords]);
 
   return (
     <div className={styles.searchContainer}>
