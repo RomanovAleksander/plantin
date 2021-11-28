@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+
+  .preview {
+    width: 32%;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
