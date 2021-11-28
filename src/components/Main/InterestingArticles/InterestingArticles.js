@@ -8,7 +8,7 @@ const style = {
   justifyContent: 'space-between',
   flexWrap: 'wrap',
   width: '100%',
-  overflow: 'hidden'
+  overflow: 'visible'
 };
 
 const TopArticles = ({ articles, fetchArticles, hasMore }) => {
