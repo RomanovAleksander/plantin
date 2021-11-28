@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+
+  .containerTitle {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #91A0B6;
+  }
+}
+
+.articles {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 16px;
+}

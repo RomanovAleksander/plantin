@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1094px;
+  padding: 44px 20px 53px 20px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #91A0B6;
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      color: #91A0B6;
+      text-decoration: none;
+    }
+
+    img {
+      margin: 0 24px;
+    }
+  }
+
+  .copyright {
+
+  }
+}

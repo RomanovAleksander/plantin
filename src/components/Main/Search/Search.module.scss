@@ -1,0 +1,39 @@
+.searchContainer {
+  background: url('../../../assets/main/s_image.svg') 100% no-repeat;
+  background-size: contain;
+  background-color: rgba(4, 191, 148, 0.16);
+  padding: 56px;
+  border-radius: 16px;
+
+  .title {
+    width: fit-content;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    color: #04BF94;
+    padding-bottom: 8px;
+  }
+
+  .temperature {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+input[type='text'] {
+  width: 51.3%;
+  margin-top: 16px;
+  border: none;
+  font-size: 16px;
+  background-image: url('../../../assets/main/search.svg');
+  background-position: 96% 15px;
+  background-repeat: no-repeat;
+  padding: 16px;
+  border-radius: 16px;
+  outline: none;
+
+  &::placeholder {
+    color: #91A0B6
+  }
+}

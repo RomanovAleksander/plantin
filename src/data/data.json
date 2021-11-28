@@ -1,0 +1,118 @@
+{
+  "top": [
+    {
+      "id": 1,
+      "date": "Feb 23",
+      "time": "8 min read",
+      "title": "Professional Repot",
+      "description": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage...",
+      "image": "top_article_image_1"
+    },
+    {
+      "id": 2,
+      "date": "Feb 23",
+      "time": "8 min read",
+      "title": "Professional Repot",
+      "description": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage...",
+      "image": "top_article_image_2"
+    }
+  ],
+  "interesting": [
+    {
+      "id": 4,
+      "date": "Feb 23",
+      "time": "8 min read",
+      "title": "Watering mastery",
+      "description": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage...",
+      "image": "int_article_image_1"
+    },
+    {
+      "id": 5,
+      "date": "Feb 23",
+      "time": "8 min read",
+      "title": "Plant pot secrets",
+      "description": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage...",
+      "image": "int_article_image_2"
+    },
+    {
+      "id": 6,
+      "date": "Feb 23",
+      "time": "8 min read",
+      "title": "Professional Repot",
+      "description": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage...",
+      "image": "int_article_image_3"
+    },
+    {
+      "id": 7,
+      "date": "Feb 23",
+      "time": "8 min read",
+      "title": "Watering mastery",
+      "description": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage...",
+      "image": "int_article_image_1"
+    },
+    {
+      "id": 8,
+      "date": "Feb 23",
+      "time": "8 min read",
+      "title": "Professional Repot",
+      "description": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage...",
+      "image": "int_article_image_3"
+    },
+    {
+      "id": 9,
+      "date": "Feb 23",
+      "time": "8 min read",
+      "title": "Plant pot secrets",
+      "description": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage...",
+      "image": "int_article_image_2"
+    },
+    {
+      "id": 10,
+      "date": "Feb 23",
+      "time": "8 min read",
+      "title": "Plant pot secrets",
+      "description": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage...",
+      "image": "int_article_image_2"
+    },
+    {
+      "id": 11,
+      "date": "Feb 23",
+      "time": "8 min read",
+      "title": "Professional Repot",
+      "description": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage...",
+      "image": "int_article_image_3"
+    },
+    {
+      "id": 12,
+      "date": "Feb 23",
+      "time": "8 min read",
+      "title": "Watering mastery",
+      "description": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage...",
+      "image": "int_article_image_1"
+    },
+    {
+      "id": 13,
+      "date": "Feb 23",
+      "time": "8 min read",
+      "title": "Professional Repot",
+      "description": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage...",
+      "image": "int_article_image_3"
+    },
+    {
+      "id": 14,
+      "date": "Feb 23",
+      "time": "8 min read",
+      "title": "Watering mastery",
+      "description": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage...",
+      "image": "int_article_image_1"
+    },
+    {
+      "id": 15,
+      "date": "Feb 23",
+      "time": "8 min read",
+      "title": "Plant pot secrets",
+      "description": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage...",
+      "image": "int_article_image_2"
+    }
+  ]
+}

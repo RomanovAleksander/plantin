@@ -1,0 +1,36 @@
+.article {
+  flex-basis: 48%;
+
+  .preview {
+    padding-bottom: 16px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .dateTime {
+    color: #ADB8C8;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #242424;
+    margin: 8px 0;
+  }
+
+  .text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #78787A;
+  }
+}
