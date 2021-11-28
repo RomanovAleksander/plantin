@@ -1,9 +1,7 @@
-import data from '../../../data/data.json';
 import InterestingArticle from './InterestingArticle/InterestingArticle';
 import styles from './InterestingArticles.module.scss';
 
-const TopArticles = () => {
-  const articles = data.interesting;
+const TopArticles = ({ articles }) => {
   return (
     <div className={styles.container}>
       <div className={styles.containerTitle}>Interesting</div>
