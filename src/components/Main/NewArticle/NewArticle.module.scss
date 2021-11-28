@@ -28,7 +28,10 @@
   width: 100%;
 
   .preview {
+    height: 364px;
     flex-basis: 48%;
+    border-radius: 12px;
+    background-color: #E0E5EE;
 
     img {
       max-width: 100%;

@@ -1,11 +1,12 @@
-import styles from './InterestingArticle.module.scss';
+import Article from '../../Article/Article';
+import Promo from '../../Promo/Promo';
 import articleImage1 from "../../../../assets/main/int_article_image_1.png";
 import articleImage2 from "../../../../assets/main/int_article_image_2.png";
 import articleImage3 from "../../../../assets/main/int_article_image_3.png";
-import Promo from "../../Promo/Promo";
+import styles from './InterestingArticle.module.scss';
 
 const InterestingArticle = ({ article, idx }) => {
-  const { image, date, time, title, description } = article;
+  const { image } = article;
 
   const setImage = () => {
     if (image === 'int_article_image_1') return articleImage1;
@@ -16,14 +17,7 @@ const InterestingArticle = ({ article, idx }) => {
 
   return (
     <>
-      <article className={styles.article}>
-        <img src={setImage()} alt='preview' />
-        <div className={styles.dateTime}>
-          {date} · {time}
-        </div>
-        <div className={styles.title}>{title}</div>
-        <div className={styles.text}>{description}</div>
-      </article>
+      <Article article={article} styles={styles} setImage={setImage} />
       {idx === 5 && <Promo />}
     </>
   );
