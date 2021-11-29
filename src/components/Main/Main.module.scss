@@ -19,4 +19,28 @@
   img {
     margin: 0 17px 0 17px;
   }
+
+  .mobileArrow {
+    display: none;
+  }
+
+  @media screen and (max-width: 800px) {
+    margin-bottom: 24px;
+
+    span:last-child {
+      display: none;
+    }
+
+    span:first-child {
+      img {
+        display: none;
+      }
+      .mobileArrow {
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 8px;
+        transform: rotate(180deg);
+      }
+    }
+  }
 }

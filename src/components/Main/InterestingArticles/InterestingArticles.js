@@ -1,17 +1,21 @@
 import InfiniteScroll from 'react-infinite-scroll-component';
+import { useMediaQuery } from '../../../hooks/media.hook';
 import InterestingArticle from './InterestingArticle/InterestingArticle';
 import Preview from '../Preview/Preview';
 import styles from './InterestingArticles.module.scss';
 
-const style = {
+const style = (isRowBased) => ({
   display: 'flex',
-  justifyContent: 'space-between',
+  flexDirection: `${isRowBased ? 'row' : 'column'}`,
+  justifyContent: `${isRowBased ? 'space-between' : 'center'}`,
   flexWrap: 'wrap',
   width: '100%',
   overflow: 'visible'
-};
+});
 
 const TopArticles = ({ articles, fetchArticles, hasMore, isFetching }) => {
+  const isRowBased = useMediaQuery('(min-width: 570px)');
+
   return (
     <div className={styles.container}>
       <div className={styles.containerTitle}>Interesting</div>
@@ -20,7 +24,7 @@ const TopArticles = ({ articles, fetchArticles, hasMore, isFetching }) => {
           dataLength={articles.length}
           next={fetchArticles}
           hasMore={hasMore}
-          style={style}
+          style={style(isRowBased)}
         >
           {articles.map((article, idx) => {
             return <InterestingArticle article={article}
@@ -32,7 +36,7 @@ const TopArticles = ({ articles, fetchArticles, hasMore, isFetching }) => {
           })}
         </InfiniteScroll>
         {isFetching && <Preview />}
-        {articles.length === 0 && <div className={styles.message}>No results were found.</div>}
+        {(articles.length === 0 && !isFetching) && <div className={styles.message}>No results were found.</div>}
       </div>
     </div>
   );

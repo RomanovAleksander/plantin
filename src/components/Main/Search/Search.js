@@ -41,6 +41,7 @@ const Search = ({ searchValue, handleChange }) => {
     <div className={styles.searchContainer}>
       <div className={styles.title}>Stay always tuned with planting trends</div>
       <span className={styles.temperature}>Current temperature is: {!loading ? temperature : '0'}°C</span>
+      <span className={styles.text}><b>Tips & Tricks</b> selected specially for <b>you!</b></span>
       <div>
         <input
           value={searchValue}

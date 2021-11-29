@@ -37,4 +37,8 @@
     line-height: 24px;
     color: #78787A;
   }
+
+  @media screen and (max-width: 570px) {
+    margin-bottom: 23px;
+  }
 }

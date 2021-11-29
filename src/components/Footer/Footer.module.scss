@@ -25,7 +25,45 @@
     }
   }
 
-  .copyright {
+  .copyright {}
 
+  @media screen and (max-width: 815px) {
+    .links {
+      img {
+        margin: 0 10px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 770px) {
+    flex-direction: column;
+    justify-content: center;
+    line-height: 24px;
+    .links {
+      a {
+        margin: 0 12px;
+      }
+      img {
+        display: none;
+      }
+    }
+  }
+
+  @media screen and (max-width: 770px) {
+    flex-direction: column;
+    justify-content: center;
+    .links {
+      flex-direction: column;
+      a {
+        margin: 8px 0;
+      }
+      img {
+        display: none;
+      }
+    }
+    .copyright {
+      margin-top: 16px;
+      text-align: center;
+    }
   }
 }

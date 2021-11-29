@@ -31,6 +31,7 @@ const Main = () => {
   }
 
   const fetchArticles = () => {
+    if (isFetching) return;
     const nextArticles = getNextPageItems(mockedArticles, currentPage, articlesPerPage);
     setIsFetching(true);
     setTimeout(() => {
@@ -48,10 +49,15 @@ const Main = () => {
   return (
     <main className={styles.wrapper}>
       <aside className={styles.navLinks}>
-        <a href="#">Home</a>
-        <img src={arrow} alt="" />
-        <a href="#">Blog</a>
-        <img src={arrow} alt="" />
+        <span>
+          <img src={arrow} alt="" className={styles.mobileArrow}/>
+          <a href="#">Home</a>
+          <img src={arrow} alt=""/>
+        </span>
+        <span>
+          <a href="#">Blog</a>
+          <img src={arrow} alt=""/>
+        </span>
       </aside>
       <Search searchValue={searchValue} handleChange={onSearchChange} />
       {!searchValue && <> <NewArticle /> <TopArticles /> </> }

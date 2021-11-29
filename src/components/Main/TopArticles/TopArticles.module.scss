@@ -13,10 +13,19 @@
     text-transform: uppercase;
     color: #91A0B6;
   }
+
+  @media screen and (max-width: 570px) {
+    margin-top: 8px;
+    padding-bottom: 0;
+  }
 }
 
 .articles {
   display: flex;
   justify-content: space-between;
   padding-top: 16px;
+
+  @media screen and (max-width: 570px) {
+   flex-direction: column;
+  }
 }

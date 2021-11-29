@@ -31,6 +31,8 @@
     background: #04BF94;
     color: #FFFFFF;
     border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -40,5 +42,25 @@
     position: absolute;
     top: -3%;
     right: -2%;
+  }
+
+  @media screen and (max-width: 1045px) {
+    .promoImage {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .title {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    .text {
+      font-size: 18px;
+      line-height: 27px;
+    }
+    .btn {
+      width: 100%;
+    }
   }
 }
