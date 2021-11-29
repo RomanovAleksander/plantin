@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/plantin/static/css/main.3c31cfc8.chunk.css",
-    "main.js": "/plantin/static/js/main.151e5fb0.chunk.js",
-    "main.js.map": "/plantin/static/js/main.151e5fb0.chunk.js.map",
+    "main.css": "/plantin/static/css/main.f679fe5a.chunk.css",
+    "main.js": "/plantin/static/js/main.03327ec2.chunk.js",
+    "main.js.map": "/plantin/static/js/main.03327ec2.chunk.js.map",
     "runtime-main.js": "/plantin/static/js/runtime-main.531f0036.js",
     "runtime-main.js.map": "/plantin/static/js/runtime-main.531f0036.js.map",
-    "static/js/2.61f82b24.chunk.js": "/plantin/static/js/2.61f82b24.chunk.js",
-    "static/js/2.61f82b24.chunk.js.map": "/plantin/static/js/2.61f82b24.chunk.js.map",
+    "static/js/2.b739383b.chunk.js": "/plantin/static/js/2.b739383b.chunk.js",
+    "static/js/2.b739383b.chunk.js.map": "/plantin/static/js/2.b739383b.chunk.js.map",
     "index.html": "/plantin/index.html",
-    "static/css/main.3c31cfc8.chunk.css.map": "/plantin/static/css/main.3c31cfc8.chunk.css.map",
-    "static/js/2.61f82b24.chunk.js.LICENSE.txt": "/plantin/static/js/2.61f82b24.chunk.js.LICENSE.txt",
+    "static/css/main.f679fe5a.chunk.css.map": "/plantin/static/css/main.f679fe5a.chunk.css.map",
+    "static/js/2.b739383b.chunk.js.LICENSE.txt": "/plantin/static/js/2.b739383b.chunk.js.LICENSE.txt",
     "static/media/avatar.1ede28b5.svg": "/plantin/static/media/avatar.1ede28b5.svg",
     "static/media/chevron_left.06dc5757.svg": "/plantin/static/media/chevron_left.06dc5757.svg",
     "static/media/divineLine.ed704139.svg": "/plantin/static/media/divineLine.ed704139.svg",
@@ -17,6 +17,7 @@
     "static/media/int_article_image_2.87b05ec5.png": "/plantin/static/media/int_article_image_2.87b05ec5.png",
     "static/media/int_article_image_3.9c900b83.png": "/plantin/static/media/int_article_image_3.9c900b83.png",
     "static/media/logo.5ec419f8.svg": "/plantin/static/media/logo.5ec419f8.svg",
+    "static/media/menu.ad5b95f9.svg": "/plantin/static/media/menu.ad5b95f9.svg",
     "static/media/new_article_image.2fc074f4.png": "/plantin/static/media/new_article_image.2fc074f4.png",
     "static/media/promo.2668d4c0.svg": "/plantin/static/media/promo.2668d4c0.svg",
     "static/media/NewArticle.module.scss": "/plantin/static/media/rectangle.51ad685a.svg",
@@ -28,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.531f0036.js",
-    "static/js/2.61f82b24.chunk.js",
-    "static/css/main.3c31cfc8.chunk.css",
-    "static/js/main.151e5fb0.chunk.js"
+    "static/js/2.b739383b.chunk.js",
+    "static/css/main.f679fe5a.chunk.css",
+    "static/js/main.03327ec2.chunk.js"
   ]
 }
