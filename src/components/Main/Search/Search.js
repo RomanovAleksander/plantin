@@ -47,6 +47,7 @@ const Search = ({ searchValue, handleChange }) => {
           onChange={(event) => handleChange(event)}
           type="text"
           placeholder="Search"
+          id="search"
         />
       </div>
       <img src={backgroundImg} alt="background" className={styles.backgroundImg} />

@@ -4,6 +4,11 @@ import avatar from '../../assets/header/avatar.svg';
 import styles from './Header.module.scss';
 
 const Header = () => {
+  const focusSearchInput = () => {
+    const element = document.querySelector('#search');
+    if (element !== null) element.focus();
+  }
+
   return (
     <header className={styles.header}>
       <div className={styles.headerItem}>
@@ -22,7 +27,7 @@ const Header = () => {
         </nav>
       </div>
       <div className={styles.headerItem}>
-        <button className={styles.btn}>
+        <button className={styles.btn} onClick={focusSearchInput}>
           <img src={search} alt="Search"/>
         </button>
         <button className={styles.btn}>

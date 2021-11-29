@@ -11,7 +11,7 @@ const style = {
   overflow: 'visible'
 };
 
-const TopArticles = ({ articles, fetchArticles, hasMore }) => {
+const TopArticles = ({ articles, fetchArticles, hasMore, isFetching }) => {
   return (
     <div className={styles.container}>
       <div className={styles.containerTitle}>Interesting</div>
@@ -20,7 +20,6 @@ const TopArticles = ({ articles, fetchArticles, hasMore }) => {
           dataLength={articles.length}
           next={fetchArticles}
           hasMore={hasMore}
-          loader={<Preview />}
           style={style}
         >
           {articles.map((article, idx) => {
@@ -32,6 +31,7 @@ const TopArticles = ({ articles, fetchArticles, hasMore }) => {
             />
           })}
         </InfiniteScroll>
+        {isFetching && <Preview />}
         {articles.length === 0 && <div className={styles.message}>No results were found.</div>}
       </div>
     </div>

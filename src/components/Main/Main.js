@@ -14,6 +14,7 @@ const articlesPerPage = 3;
 const Main = () => {
   const [searchValue, setSearchValue] = useState('');
   const [articles, setArticles] = useState([]);
+  const [isFetching, setIsFetching] = useState(false);
   const currentPage = articles.length / articlesPerPage;
 
   const onSearchChange = (event) => {
@@ -31,8 +32,10 @@ const Main = () => {
 
   const fetchArticles = () => {
     const nextArticles = getNextPageItems(mockedArticles, currentPage, articlesPerPage);
+    setIsFetching(true);
     setTimeout(() => {
       setArticles((prev) => [...prev, ...nextArticles]);
+      setIsFetching(false)
     }, 600);
   }
 
@@ -55,6 +58,7 @@ const Main = () => {
       <InterestingArticles articles={filteredArticles}
                            fetchArticles={fetchArticles}
                            hasMore={hasMore}
+                           isFetching={isFetching}
       />
     </main>
   );
