@@ -87,6 +87,9 @@
 
   @media screen and (max-width: 570px) {
     flex-direction: column;
+    .information {
+      margin-top: 16px;
+    }
   }
 
   @media screen and (max-width: 435px) {
