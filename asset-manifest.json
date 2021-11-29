@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/plantin/static/css/main.f679fe5a.chunk.css",
+    "main.css": "/plantin/static/css/main.45a38d90.chunk.css",
     "main.js": "/plantin/static/js/main.03327ec2.chunk.js",
     "main.js.map": "/plantin/static/js/main.03327ec2.chunk.js.map",
     "runtime-main.js": "/plantin/static/js/runtime-main.531f0036.js",
@@ -8,7 +8,7 @@
     "static/js/2.b739383b.chunk.js": "/plantin/static/js/2.b739383b.chunk.js",
     "static/js/2.b739383b.chunk.js.map": "/plantin/static/js/2.b739383b.chunk.js.map",
     "index.html": "/plantin/index.html",
-    "static/css/main.f679fe5a.chunk.css.map": "/plantin/static/css/main.f679fe5a.chunk.css.map",
+    "static/css/main.45a38d90.chunk.css.map": "/plantin/static/css/main.45a38d90.chunk.css.map",
     "static/js/2.b739383b.chunk.js.LICENSE.txt": "/plantin/static/js/2.b739383b.chunk.js.LICENSE.txt",
     "static/media/avatar.1ede28b5.svg": "/plantin/static/media/avatar.1ede28b5.svg",
     "static/media/chevron_left.06dc5757.svg": "/plantin/static/media/chevron_left.06dc5757.svg",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.531f0036.js",
     "static/js/2.b739383b.chunk.js",
-    "static/css/main.f679fe5a.chunk.css",
+    "static/css/main.45a38d90.chunk.css",
     "static/js/main.03327ec2.chunk.js"
   ]
 }
